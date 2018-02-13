@@ -11,7 +11,12 @@ class Home extends Component {
                     <div className="row">
                         <div className="col-lg-10 mx-auto">
                             <h1 className="text-uppercase">
-                                <strong>Hi! I'm Bianca</strong>
+                                <strong>Hi
+                                    <span className="color">!</span>
+                                    <br/>
+                                    I
+                                    <span className="color">'</span>
+                                    m Bianca</strong>
                             </h1>
                             <hr></hr>
                         </div>

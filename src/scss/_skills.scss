@@ -4,12 +4,14 @@
 #skills {
     background-image: url('../images/pexels-photo-577585.jpeg');
     background-position: center center;
-    filter: grayscale(90%);
+    //filter: grayscale(90%);
+    opacity: 0.8;
     @include background-cover;
 
     h2 {
         color: $white;
         text-shadow: 0 0 50px $white;
+        font-weight: bold;
     }
 
     .skills-span{
@@ -17,5 +19,10 @@
         letter-spacing:0.18em;
         text-shadow:0 0 50px $white;
         color: $white;
+        font-weight: bold;
+    }
+
+    hr {
+        opacity: $primary;
     }
 }
