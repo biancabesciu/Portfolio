@@ -13,6 +13,7 @@
         text-transform: uppercase;
         color: $primary;
         @include sans-serif-font;
+
         &:focus,
         &:hover {
             color: darken($primary, .1);

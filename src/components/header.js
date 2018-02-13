@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import {NavLink} from 'react-router-dom';
 
-class Header extends Component {
+import '../compiledCss/compiled.css';
+
+class Home extends Component {
     render() {
         return (
             <header className="masthead text-center text-white d-flex">
@@ -14,7 +17,7 @@ class Header extends Component {
                         </div>
                         <div className="col-lg-8 mx-auto">
                             <p className="text-faded mb-5">Junior Front End Developer</p>
-                            <a className="btn btn-primary btn-xl js-scroll-trigger" href="/about">Find Out More</a>
+                            <NavLink className="btn btn-primary btn-xl js-scroll-trigger" to="/about">Find Out More</NavLink>
                         </div>
                     </div>
                 </div>
@@ -23,4 +26,4 @@ class Header extends Component {
     }
 }
 
-export default Header;
+export default Home;

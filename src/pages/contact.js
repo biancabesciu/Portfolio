@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import Navigation from "../components/navigation";
 
 class Contact extends Component {
     render() {
         return (
-            <div>Contact me</div>
+            <div>
+                <Navigation />
+                <p>Contact me</p>
+            </div>
         )
     }
 }
