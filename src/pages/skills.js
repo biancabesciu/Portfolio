@@ -1,25 +1,40 @@
 import React, { Component } from 'react';
 
+const htmlStyle = {
+    width: '90%'
+};
+
+const CssStyle = {
+    width: '70%'
+};
+
+const SassStyle = {
+    width: '60%'
+};
+
+const JavaScriptStyle = {
+    width: '50%'
+};
+
+const ReactStyle = {
+    width: '55%'
+};
+
 class Skills extends Component {
     render() {
         return (
             <section className="skills">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12 text-center">
-                            <h2 className="section-heading">SKILLS</h2>
-                            <span className="skills-span">MY KNOWLEDGE LEVEL IN&nbsp;SOFTWARE</span>
-                            <hr className="my-4"></hr>
-                        </div>
-                    </div>
-                </div>
-
                 <div className="center">
+                    <h2 className="section-heading">SKILLS</h2>
+                    <span className="skills-span">MY KNOWLEDGE LEVEL IN&nbsp;SOFTWARE</span>
+                    <hr className="my-4"></hr>
                     <div className="skills-container">
-                        <p>HTML</p>
-                        <p>90%</p>
-                        <div className="skills-bar">
-                            <div className="progress-bar"></div>
+                        <div className="html">
+                            <p>HTML</p>
+                            <p>90%</p>
+                            <div className="skills-bar">
+                                <div className="progress-bar" style={htmlStyle}></div>
+                            </div>
                         </div>
                     </div>
 
@@ -27,7 +42,7 @@ class Skills extends Component {
                         <p>CSS</p>
                         <p>70%</p>
                         <div className="skills-bar">
-                            <div className="progress-bar"></div>
+                            <div className="progress-bar" style={CssStyle}></div>
                         </div>
                     </div>
 
@@ -35,7 +50,7 @@ class Skills extends Component {
                         <p>SASS</p>
                         <p>60%</p>
                         <div className="skills-bar">
-                            <div className="progress-bar"></div>
+                            <div className="progress-bar" style={SassStyle}></div>
                         </div>
                     </div>
 
@@ -43,7 +58,7 @@ class Skills extends Component {
                         <p>JAVASCRIPT</p>
                         <p>50%</p>
                         <div className="skills-bar">
-                            <div className="progress-bar"></div>
+                            <div className="progress-bar" style={JavaScriptStyle}></div>
                         </div>
                     </div>
 
@@ -51,7 +66,7 @@ class Skills extends Component {
                         <p>REACT</p>
                         <p>55%</p>
                         <div className="skills-bar">
-                            <div className="progress-bar"></div>
+                            <div className="progress-bar" style={ReactStyle}></div>
                         </div>
                     </div>
                 </div>
