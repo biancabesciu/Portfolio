@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Skills extends Component {
     render() {
         return (
-            <section id="skills">
+            <section className="skills">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12 text-center">
@@ -14,13 +14,16 @@ class Skills extends Component {
                     </div>
                 </div>
 
-                <div className="skills-bar">
-
+                <div className="center">
+                    <div className="skills-container">
+                        <p>HTML</p>
+                        <p>90%</p>
+                        <div className="skills-bar">
+                            <div className="progress-bar"></div>
+                        </div>
+                    </div>
                 </div>
 
-                <div className="skills-text">
-
-                </div>
             </section>
 
         )
