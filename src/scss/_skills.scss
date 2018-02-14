@@ -24,7 +24,7 @@
 
     .center {
         width: 50%;
-        margin-top: 111px;
+        margin-top: 175px;
         position: relative;
         top: 50%;
         left: 50%;
@@ -32,7 +32,7 @@
         padding: 20px;
         background: $black;
         box-sizing: border-box;
-        box-shadow: 0 20px 50px rgba(0,0,0,.7);
+        box-shadow: 0 20px 50px rgba(0,0,0,.9);
 
         .skills-container {
             box-sizing: border-box;
@@ -47,7 +47,15 @@
 
                 &:nth-child(2) {
                     float: right;
+                    position: relative;
+                    top: -25px;
                 }
+            }
+
+            .skills-bar {
+                background-color: $lime;
+                padding: 4px;
+                box-sizing: border-box;
             }
         }
 

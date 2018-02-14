@@ -22,6 +22,38 @@ class Skills extends Component {
                             <div className="progress-bar"></div>
                         </div>
                     </div>
+
+                    <div className="skills-container">
+                        <p>CSS</p>
+                        <p>70%</p>
+                        <div className="skills-bar">
+                            <div className="progress-bar"></div>
+                        </div>
+                    </div>
+
+                    <div className="skills-container">
+                        <p>SASS</p>
+                        <p>60%</p>
+                        <div className="skills-bar">
+                            <div className="progress-bar"></div>
+                        </div>
+                    </div>
+
+                    <div className="skills-container">
+                        <p>JAVASCRIPT</p>
+                        <p>50%</p>
+                        <div className="skills-bar">
+                            <div className="progress-bar"></div>
+                        </div>
+                    </div>
+
+                    <div className="skills-container">
+                        <p>REACT</p>
+                        <p>55%</p>
+                        <div className="skills-bar">
+                            <div className="progress-bar"></div>
+                        </div>
+                    </div>
                 </div>
 
             </section>
