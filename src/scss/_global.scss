@@ -72,6 +72,11 @@ section {
     text-shadow: none;
 }
 
+.img-fluid {
+    width: 407px;
+    height: 220px;
+}
+
 img::selection {
     color: $white;
     background: transparent;
@@ -80,4 +85,11 @@ img::selection {
 img::-moz-selection {
     color: $white;
     background: transparent;
+}
+
+@media (min-width: 768px) {
+    .img-fluid {
+        width:490px;
+        height: 220px;
+    }
 }
