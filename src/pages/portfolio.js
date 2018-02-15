@@ -10,30 +10,30 @@ class Portfolio extends Component {
                 <div className="container-fluid p-0">
                     <div className="row no-gutters popup-gallery">
                         <div className="col-lg-4 col-sm-6">
-                            <a className="portfolio-box" href="../images/fullsize/1.jpg">
-                                <img className="img-fluid" src="../images/thumbnails/1.jpg"/>
+                            <a className="portfolio-box" href="https://github.com/biancabesciu/Ravenous">
+                                <img className="img-fluid" src={require('../images/thumbnails/ravenous.jpg')}/>
                                     <div className="portfolio-box-caption">
                                         <div className="portfolio-box-caption-content">
                                             <div className="project-category text-faded">
-                                                Category
+                                                React
                                             </div>
                                             <div className="project-name">
-                                                Project Name
+                                                Ravenous
                                             </div>
                                         </div>
                                     </div>
                             </a>
                         </div>
                         <div className="col-lg-4 col-sm-6">
-                            <a className="portfolio-box" href="../images/fullsize/2.jpg">
-                                <img className="img-fluid" src="../images/thumbnails/2.jpg" alt=""/>
+                            <a className="portfolio-box" href="https://github.com/biancabesciu/Jammming">
+                                <img className="img-fluid" src={require("../images/thumbnails/2.jpg")}/>
                                     <div className="portfolio-box-caption">
                                         <div className="portfolio-box-caption-content">
                                             <div className="project-category text-faded">
-                                                Category
+                                                React
                                             </div>
                                             <div className="project-name">
-                                                Project Name
+                                               Jammming
                                             </div>
                                         </div>
                                     </div>
@@ -41,7 +41,7 @@ class Portfolio extends Component {
                         </div>
                         <div className="col-lg-4 col-sm-6">
                             <a className="portfolio-box" href="../images/fullsize/3.jpg">
-                                <img className="img-fluid" src="../images/thumbnails/3.jpg" alt=""/>
+                                <img className="img-fluid" src={require("../images/thumbnails/3.jpg")}/>
                                     <div className="portfolio-box-caption">
                                         <div className="portfolio-box-caption-content">
                                             <div className="project-category text-faded">
@@ -56,7 +56,7 @@ class Portfolio extends Component {
                         </div>
                         <div className="col-lg-4 col-sm-6">
                             <a className="portfolio-box" href="../images/fullsize/4.jpg">
-                                <img className="img-fluid" src="../images/thumbnails/4.jpg" alt=""/>
+                                <img className="img-fluid" src={require("../images/thumbnails/4.jpg")}/>
                                     <div className="portfolio-box-caption">
                                         <div className="portfolio-box-caption-content">
                                             <div className="project-category text-faded">
@@ -70,14 +70,14 @@ class Portfolio extends Component {
                             </a>
                         </div>
                         <div className="col-lg-4 col-sm-6">
-                            <a className="portfolio-box" href="../images/fullsize/5.jpg">
-                                <img className="img-fluid" src="../images/thumbnails/5.jpg" alt=""/>
+                            <a className="portfolio-box" href="https://github.com/biancabesciu/Jammming">
+                                <img className="img-fluid" src={require("../images/thumbnails/5.jpg")}/>
                                     <div className="portfolio-box-caption">
                                         <div className="portfolio-box-caption-content">
                                             <div className="project-category text-faded">
                                                 Category
                                             </div>
-                                            <div className="aproject-name">
+                                            <div className="project-name">
                                                 Project Name
                                             </div>
                                         </div>
@@ -86,7 +86,7 @@ class Portfolio extends Component {
                         </div>
                         <div className="col-lg-4 col-sm-6">
                             <a className="portfolio-box" href="../images/fullsize/6.jpg">
-                                <img className="img-fluid" src="../images/thumbnails/6.jpg" alt=""/>
+                                <img className="img-fluid" src={require("../images/thumbnails/6.jpg")}/>
                                     <div className="portfolio-box-caption">
                                         <div className="portfolio-box-caption-content">
                                             <div className="project-category text-faded">
