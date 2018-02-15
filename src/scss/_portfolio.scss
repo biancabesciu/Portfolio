@@ -6,8 +6,8 @@
     position: relative;
     display: block;
     max-width: 650px;
+    height: 220px;
     margin: 0 auto;
-
     .portfolio-box-caption {
         position: absolute;
         bottom: 0;
@@ -27,19 +27,21 @@
             transform: translateY(-50%);
             text-align: center;
 
-        .project-category,
-        .project-name {
-            padding: 0 15px;
-            @include sans-serif-font;
-        }
-        .project-category {
-            font-size: 14px;
-            font-weight: 600;
-            text-transform: uppercase;
-        }
-        .project-name {
-            font-size: 18px;
-        }
+            .project-category,
+            .project-name {
+                padding: 0 15px;
+                @include sans-serif-font;
+            }
+
+            .project-category {
+                font-size: 14px;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+
+            .project-name {
+                font-size: 18px;
+            }
         }
     }
 
@@ -55,10 +57,12 @@
 
     @media (min-width: 768px) {
         .portfolio-box-caption {
+
             .portfolio-box-caption-content {
                 .project-category {
                     font-size: 16px;
                 }
+
                 .project-name {
                     font-size: 22px;
                 }
