@@ -11,7 +11,7 @@ class Portfolio extends Component {
                     <div className="row no-gutters popup-gallery">
                         <div className="col-lg-4 col-sm-6">
                             <a className="portfolio-box" href="https://github.com/biancabesciu/Ravenous">
-                                <img className="img-fluid" src={require('../images/thumbnails/ravenous.jpg')}/>
+                                <img className="img-fluid" src={require('../images/thumbnails/ravenous.jpg')} alt={"ravenous"}/>
                                     <div className="portfolio-box-caption">
                                         <div className="portfolio-box-caption-content">
                                             <div className="project-category text-faded">
@@ -25,45 +25,45 @@ class Portfolio extends Component {
                             </a>
                         </div>
                         <div className="col-lg-4 col-sm-6">
-                            <a className="portfolio-box" href="https://github.com/biancabesciu/Jammming">
-                                <img className="img-fluid" src={require("../images/thumbnails/2.jpg")}/>
+                            <a className="portfolio-box" href="https://biancabesciu.github.io/CauseProject/">
+                                <img className="img-fluid" src={require("../images/thumbnails/causeProject.jpg")} alt={"causeProject"}/>
+                                    <div className="portfolio-box-caption">
+                                        <div className="portfolio-box-caption-content">
+                                            <div className="project-category text-faded">
+                                                Html & JavaScript
+                                            </div>
+                                            <div className="project-name">
+                                               CauseProject
+                                            </div>
+                                        </div>
+                                    </div>
+                            </a>
+                        </div>
+                        <div className="col-lg-4 col-sm-6">
+                            <a className="portfolio-box" href="https://github.com/biancabesciu/To-Do-List">
+                                <img className="img-fluid" src={require("../images/thumbnails/toDoList.jpg")} alt={"project"}/>
                                     <div className="portfolio-box-caption">
                                         <div className="portfolio-box-caption-content">
                                             <div className="project-category text-faded">
                                                 React
                                             </div>
                                             <div className="project-name">
-                                               Jammming
+                                                Simple To Do List
                                             </div>
                                         </div>
                                     </div>
                             </a>
                         </div>
                         <div className="col-lg-4 col-sm-6">
-                            <a className="portfolio-box" href="../images/fullsize/3.jpg">
-                                <img className="img-fluid" src={require("../images/thumbnails/3.jpg")}/>
+                            <a className="portfolio-box" href="https://github.com/biancabesciu/Lessons/tree/master/%20Music">
+                                <img className="img-fluid" src={require("../images/thumbnails/music.jpg")} alt={"project"}/>
                                     <div className="portfolio-box-caption">
                                         <div className="portfolio-box-caption-content">
                                             <div className="project-category text-faded">
-                                                Category
+                                                Html & Css
                                             </div>
                                             <div className="project-name">
-                                                Project Name
-                                            </div>
-                                        </div>
-                                    </div>
-                            </a>
-                        </div>
-                        <div className="col-lg-4 col-sm-6">
-                            <a className="portfolio-box" href="../images/fullsize/4.jpg">
-                                <img className="img-fluid" src={require("../images/thumbnails/4.jpg")}/>
-                                    <div className="portfolio-box-caption">
-                                        <div className="portfolio-box-caption-content">
-                                            <div className="project-category text-faded">
-                                                Category
-                                            </div>
-                                            <div className="project-name">
-                                                Project Name
+                                                Simple Page
                                             </div>
                                         </div>
                                     </div>
@@ -71,29 +71,29 @@ class Portfolio extends Component {
                         </div>
                         <div className="col-lg-4 col-sm-6">
                             <a className="portfolio-box" href="https://github.com/biancabesciu/Jammming">
-                                <img className="img-fluid" src={require("../images/thumbnails/5.jpg")}/>
+                                <img className="img-fluid" src={require("../images/thumbnails/jammming.jpg")} alt={"project"}/>
                                     <div className="portfolio-box-caption">
                                         <div className="portfolio-box-caption-content">
                                             <div className="project-category text-faded">
-                                                Category
+                                                React
                                             </div>
                                             <div className="project-name">
-                                                Project Name
+                                                Jamming
                                             </div>
                                         </div>
                                     </div>
                             </a>
                         </div>
                         <div className="col-lg-4 col-sm-6">
-                            <a className="portfolio-box" href="../images/fullsize/6.jpg">
-                                <img className="img-fluid" src={require("../images/thumbnails/6.jpg")}/>
+                            <a className="portfolio-box" href="https://github.com/biancabesciu/Lessons/tree/master/%20newsarticle">
+                                <img className="img-fluid" src={require("../images/thumbnails/newsArticle.jpg")} alt={"project"}/>
                                     <div className="portfolio-box-caption">
                                         <div className="portfolio-box-caption-content">
                                             <div className="project-category text-faded">
-                                                Category
+                                                Html & Css
                                             </div>
                                             <div className="project-name">
-                                                Project Name
+                                                News article
                                             </div>
                                         </div>
                                     </div>
