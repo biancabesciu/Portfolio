@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {NavLink} from 'react-router-dom';
 
 import '../compiledCss/compiled.css';
 
@@ -22,7 +21,7 @@ class Home extends Component {
                         </div>
                         <div className="col-lg-8 mx-auto">
                             <p className="text-faded mb-5">Junior Front End Developer</p>
-                            <NavLink className="btn btn-primary btn-xl js-scroll-trigger" to="/about">Find Out More</NavLink>
+                            <a className="btn btn-primary btn-xl js-scroll-trigger" href={"/about"}>Find Out More</a>
                         </div>
                     </div>
                 </div>
