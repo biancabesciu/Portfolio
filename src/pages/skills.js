@@ -29,12 +29,10 @@ class Skills extends Component {
                     <span className="skills-span">MY KNOWLEDGE LEVEL IN&nbsp;SOFTWARE</span>
                     <hr className="my-4"></hr>
                     <div className="skills-container">
-                        <div className="html">
-                            <p>HTML</p>
-                            <p>90%</p>
-                            <div className="skills-bar">
-                                <div className="progress-bar" style={htmlStyle}></div>
-                            </div>
+                        <p>HTML</p>
+                        <p>90%</p>
+                        <div className="skills-bar">
+                            <div className="progress-bar" style={htmlStyle}></div>
                         </div>
                     </div>
 

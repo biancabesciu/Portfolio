@@ -6,7 +6,7 @@ import '../compiledCss/compiled.css';
 class Portfolio extends Component {
     render() {
         return (
-            <section className="p-0" id="portfolio">
+            <section className="p-0 bg-primary" id="portfolio">
                 <div className="container-fluid p-0">
                     <div className="row no-gutters popup-gallery">
                         <div className="col-lg-4 col-sm-6">

@@ -2,15 +2,16 @@
 
 // Styling for the skills section
 .skills {
-    padding-top: 30%;
-    background-image: url('../images/pexels-photo-577585.jpeg');
+    padding-top: 50%;
+    padding-bottom: 0;
+    background-image: url('../images/pexels-photo-92905.jpeg');
     background-position: center center;
     //filter: grayscale(50%);
     opacity: 0.8;
     @include background-cover;
 
     .center {
-        width: 50%;
+        width: 60%;
         position: relative;
         top: 50%;
         left: 50%;
@@ -68,4 +69,11 @@
         }
 
     }
+}
+
+@media (max-width: 500px) {
+    .skills {
+        padding-top: 100%;
+    }
+
 }
